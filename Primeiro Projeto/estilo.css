@@ -1,0 +1,14 @@
+main{
+  width: 752px;
+  border: 2px solid gray;
+  margin: 0 auto;
+}
+
+main-image{
+  width: 752px;
+  height: 400px;
+}
+
+#principal{
+  padding: 15px;
+}
