@@ -1,14 +1,39 @@
-main{
-  width: 752px;
-  border: 2px solid gray;
-  margin: 0 auto;
+:root{
+  font-family: alice;
+  font-size: 16px;
+  color: #573A37;
 }
 
-main-image{
-  width: 752px;
-  height: 400px;
+body{
+  background-image: url(imagens/bg-image1.jpg);
+  background-size: cover;
 }
 
-#principal{
-  padding: 15px;
+#page{
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 800px;
+  padding: 24px;
+  margin: 48px auto;
+  background-color: #F0E8C2;
 }
+
+img{
+  border-radius: 16px;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 140%;
+}
+
+h2{
+  font-size: 24px;
+  line-height: 150%;
+}
+
+h1, h2{
+  color: #291B1A;
+}
+
+
