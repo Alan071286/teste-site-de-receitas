@@ -1,5 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 :root{
-  font-family: alice;
+  font-family: "alice" sans-serif;
+  line-height: 150%;
   font-size: 16px;
   color: #573A37;
 }
@@ -10,21 +15,35 @@ body{
 }
 
 #page{
-  box-sizing: border-box;
   border-radius: 16px;
+  box-sizing: border-box;
   width: 800px;
-  padding: 24px;
-  margin: 48px auto;
   background-color: #F0E8C2;
+  margin: 48px auto;
+
+}
+
+#principal{
+  padding: 24px;
+}
+
+#about p{
+  padding-bottom: 12px;
+
+}
+section + section{
+  margin-bottom:24px;
 }
 
 img{
   border-radius: 16px;
+  margin: auto;
 }
 
 h1{
   font-size: 40px;
   line-height: 140%;
+
 }
 
 h2{
@@ -34,6 +53,12 @@ h2{
 
 h1, h2{
   color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+ul{
+  padding-left: 24px;
 }
 
 
